@@ -1,0 +1,96 @@
+body{
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+.caixa{
+    background: #177fa7;
+    height: 800px;
+    width: 600px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#resultado{
+    background: white;
+    width: 85%;
+    height: 70px;
+    border-radius: 20px;
+    font-size: 30px;
+    border: 1px gray solid;
+    word-wrap: break-word;
+    margin-top: 10px;
+    padding-right: 20px;
+    text-align: right
+}
+.calculadora{
+   background:#11B9BD;
+   height: 760px;
+   width: 550px;
+   border-radius: 20px;
+   margin: 10px;
+}
+.tela{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+input{
+  
+    height: 70px;
+    width: 90%;
+    border-radius: 20px;
+    font-size: 25px;
+    font: bold;
+}
+button{
+    height: 100px ;
+    width: 100px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    background: #177FA7;
+    color: white;
+}
+hr{
+    height: 10px;
+    background: black;
+}
+.btn:hover{
+    height: 100px ;
+    width: 100px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: black;
+    background: #fafafa;
+    
+}
+.limpar{
+    height: 100px;
+    width: 210px;
+    background: black;
+}
+.limpar:hover{
+    height: 100px;
+    width: 210px;
+    color: black;
+    background: #10B388;
+}
+.teclas{
+    height: 630px;
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;  
+}
+
+@media screen and (max-width: 595px) {
+    .caixa{
+        width: 550px;
+    }
+}
