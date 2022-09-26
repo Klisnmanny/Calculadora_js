@@ -21,9 +21,9 @@ function limpa(){
    document.getElementById('resultado').value = ''
 }
 
-async function porcentagem(porcento) {
+ function porcentagem(porcento) {
 
    document.getElementById('resultado').value += porcento
-   let cal1 = await document.getElementById('resultado').value.replace("%", "/100")
+   let cal1 = document.getElementById('resultado').value.replace("%", "/100")
    document.getElementById('resultado').value = eval(cal1)
 }
